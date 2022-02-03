@@ -11,6 +11,8 @@ body {
   overflow-x: hidden;
   font-family: 'Permanent Marker', cursive;
   background-image: url("../img/all_guruguru.jpg");
+  background-color:rgba(255,255,255,0.3);
+background-blend-mode:lighten;
 }
 
 p {
@@ -18,12 +20,16 @@ p {
 }
 
 a {
-  color: rgb(214, 203, 203);
+  color: rgb(71, 66, 66);
 }
 
 a:hover {
-  color:rgb(214, 203, 203);
+  color:rgb(71, 66, 66);
 }
+
+/* .text-muted {
+  color:rgb(71, 66, 66);
+} */
 
 h1,
 h2,
@@ -224,6 +230,41 @@ header.masthead .intro-text .intro-heading {
   text-transform: none;
 }
 
+#portfolio .html{
+  width: 180px;
+  height: 180px;
+  border: 1px solid #abc9d3;
+  border-radius: 100%;
+  margin: 10px 0;
+  object-fit: fill;
+  position: relative;
+  left: 100px;
+}
+
+#portfolio .php{
+  width: 180px;
+  height: 180px;
+  border: 1px solid #abc9d3;
+  border-radius: 100%;
+  margin: 10px 0;
+  object-fit: fill;
+  position: relative;
+  right: 100px;
+
+}
+
+#portfolio .laravel{
+  width: 180px;
+  height: 180px;
+  border: 1px solid #abc9d3;
+  border-radius: 100%;
+  margin: 10px 0;
+  object-fit: fill;
+  position: relative;
+  left: 100px;
+
+}
+
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px;
@@ -322,7 +363,8 @@ header.masthead .intro-text .intro-heading {
   font-size: 16px;
   font-style: italic;
   margin: 20px 0 30px;
-  font-family: 'Permanent Marker', cursive;}
+  font-family: 'Permanent Marker', cursive;
+}
 
 .portfolio-modal .modal-content ul.list-inline {
   margin-top: 0;
@@ -558,15 +600,29 @@ header.masthead .intro-text .intro-heading {
   }
 }
 
+.lp {
+  width: 300px;
+  height: 300px;
+  margin: 10px 0;
+}
+
 .skills {
   margin-bottom: 50px;
   text-align: center;
+
 }
 
 .skills img {
   width: 225px;
   height: 225px;
-  border: 7px solid rgba(0, 0, 0, 0.1);
+  border: 7px solid ;
+  width: 150px;
+  height: 150px;
+  border: 1px solid #abc9d3;
+  border-radius: 100%;
+  background-color: white;
+  margin: 10px 0;
+  object-fit: fill;
 }
 
 .skills h4 {
