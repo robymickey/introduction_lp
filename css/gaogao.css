@@ -106,13 +106,13 @@ img::-moz-selection {
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #fec810 !important;
-  border-color: #fec810 !important;
+  background-color: #bcd4db !important;
+  border-color:  #bcd4db !important;
   color: white;
 }
 
 .btn-primary:active, .btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+  box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.7) !important;
 }
 
 #mainNav {
@@ -134,13 +134,13 @@ img::-moz-selection {
   font-family: 'Permanent Marker', cursive;}
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #fec503;
+  color: rgb(71, 66, 66);
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
-  font-size: 90%;
+  font-size: 80%;
   font-weight: 400;
-  padding: 0.75em 0;
+  padding: 0. 0;
   letter-spacing: 1px;
   color: white;
   font-family: 'Permanent Marker', cursive;}
@@ -151,8 +151,8 @@ img::-moz-selection {
 
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    /* padding-top: 25px;
+    padding-bottom: 25px; */
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
     background-color: rgba(0, 0, 0, .3);
@@ -472,14 +472,15 @@ header.masthead .intro-text .intro-heading {
   position: absolute;
   z-index: 100;
   left: 0;
-  width: 80px;
-  height: 80px;
-  margin-left: 0;
+  width: 100px;
+  height: 100px;
+  margin-left: 20;
   text-align: center;
   color: white;
-  border: 5px solid #abc9d3;
+  border: 10px solid #abc9d3;
   border-radius: 100%;
   background-color: #abc9d3;
+  cursor: pointer;
 }
 
 .timeline > li .timeline-image h4 {
@@ -718,5 +719,5 @@ ul.social-buttons li a {
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: rgb(214, 203, 203);
+  background-color: #bcd4db;
 }
